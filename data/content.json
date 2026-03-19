@@ -2,67 +2,100 @@
   "businessName": "J's Auto Clinic",
   "tagline": "Burbank's Most Trusted Auto Repair Since Day One",
   "hero": {
-    "heading": "Expert Auto Repair You Can Count On",
-    "subheading": "Family-owned auto shop in Burbank providing honest, reliable car repair and maintenance. 4.9 stars from 134+ happy customers.",
-    "ctaText": "Call For a Quote",
+    "heading": "Your Car Deserves Better.",
+    "subheading": "Honest diagnostics, expert repairs, and fair pricing. J's Auto Clinic keeps Burbank running — one car at a time.",
+    "ctaText": "Call Now",
     "ctaLink": "tel:(818) 562-1414",
     "secondaryCtaText": "Our Services",
-    "secondaryCtaLink": "#services"
+    "secondaryCtaLink": "#services",
+    "backgroundImage": "https://places.googleapis.com/v1/places/ChIJOfGM5lOVwoARYmqJiGFhX5Q/photos/ATCDNfWEsr7t4RH3p6CPhJNIeyTRDyRevUCR2FIKa9Mzs70-7bIKdaPjMeha4NSUkbAqYX0bOu7mzhdIhL18YfmIaIFuadvstNfDoLB3rsf75-bxsDT4CFuAX4ATaIZtBDVnBHB_iGOE6_n3I1irTuuURy4BKVld5oABXfK-HOsFPB39FVrKTHk09EyfCzKeeskLOg8_zFjPnfOaH194Rp86IcPNZM4LZYOGql8eae60fDkDv0k6cAJ3DeLtiFrR0wGFubMp3u6oI882WYJXNBBIC0WwZzNRW67f48hdVxsUbPjlmw/media?maxWidthPx=1400&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro"
   },
   "about": {
-    "heading": "About J's Auto Clinic",
+    "heading": "Honest Work. Fair Prices. Real Results.",
     "paragraphs": [
-      "J's Auto Clinic is a full-service auto repair shop located in the heart of Burbank, California. We specialize in everything from routine oil changes and brake services to complex engine diagnostics and transmission repairs.",
-      "Our ASE-certified technicians treat every vehicle like their own. We believe in transparent pricing, honest assessments, and getting you back on the road safely. Whether you drive a domestic, European, or Asian vehicle, we have the expertise to handle it."
-    ]
+      "J's Auto Clinic has earned a 4.9-star reputation in Burbank by doing things the right way — transparent diagnostics, quality parts, and repairs that last. We don't upsell. We fix what needs fixing and we stand behind every job.",
+      "From routine oil changes to complex engine work, our ASE-trained technicians treat every vehicle like their own. Walk-ins welcome, appointments preferred. Come see why 134 reviews can't be wrong."
+    ],
+    "image": "https://places.googleapis.com/v1/places/ChIJOfGM5lOVwoARYmqJiGFhX5Q/photos/ATCDNfV7boL0V_8502MMi4Cx-ejEQrTmOwmDK42qhYSWkdf59MR7w_24pwWYTClRrVPwyBa6jMdpOYdOTS5XfdC0hu79G_8daqMb-1ZFyofpI0xWahm2ML6tSEoQtiaEvglhpLNOoOUrRaeQBZRH5wyUf7LizjoTsJxJJLrOmEIp9Rwc0L7Ga34yngIE0VV5z3YzL7ZKjMvk52vwSxb4ndwNnomp_GnCFxXpk8jT21egS14o_Ci8iEtCHOvYhIsoBagdayrW40nhCpIVNL_rUIk3KCqdwPMr1W3onQdSUQ_oP_YttA/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro"
   },
   "services": [
     {
       "title": "Engine Diagnostics",
-      "description": "State-of-the-art computer diagnostics to pinpoint issues fast and accurately. Check engine light? We'll find the cause.",
-      "icon": "car"
+      "description": "State-of-the-art computer diagnostics to pinpoint issues fast. No guesswork, no unnecessary repairs.",
+      "icon": "wrench",
+      "price": "From $89"
     },
     {
       "title": "Brake Service",
-      "description": "Complete brake inspection, pad replacement, rotor resurfacing, and brake fluid flush to keep you stopping safely.",
-      "icon": "shield"
+      "description": "Pads, rotors, calipers, fluid flush — complete brake service to keep you safe on the road.",
+      "icon": "shield",
+      "price": "From $149"
     },
     {
       "title": "Oil Change & Tune-Up",
-      "description": "Routine maintenance including oil changes, filter replacements, spark plugs, and fluid top-offs to extend your vehicle's life.",
-      "icon": "wrench"
+      "description": "Synthetic and conventional oil changes, filter replacements, and full tune-ups to keep your engine running smooth.",
+      "icon": "car",
+      "price": "From $49"
     },
     {
       "title": "Transmission Repair",
-      "description": "Full transmission diagnostics, fluid service, and repair for both automatic and manual transmissions.",
-      "icon": "wrench"
+      "description": "Manual and automatic transmission diagnostics, fluid service, and complete rebuilds.",
+      "icon": "wrench",
+      "price": "Call for Quote"
     },
     {
       "title": "A/C & Heating",
-      "description": "Climate control system diagnosis and repair. Stay comfortable year-round with a properly functioning A/C and heater.",
-      "icon": "sparkles"
+      "description": "Full climate system diagnostics and repair. Stay comfortable year-round in your vehicle.",
+      "icon": "sparkles",
+      "price": "From $99"
     },
     {
-      "title": "Tire & Alignment",
-      "description": "Tire rotation, balancing, wheel alignment, and new tire installation to keep your ride smooth and safe.",
-      "icon": "car"
+      "title": "Electrical Systems",
+      "description": "Battery, alternator, starter, wiring — we diagnose and repair all vehicle electrical issues.",
+      "icon": "award",
+      "price": "From $79"
     }
   ],
+  "gallery": {
+    "heading": "Our Shop",
+    "subheading": "Inside J's Auto Clinic",
+    "images": [
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJOfGM5lOVwoARYmqJiGFhX5Q/photos/ATCDNfWPOY0hbaZkyNpAGJ4jkHgLNzQRjh5XQYgiQC4rbA2ThLPoBi_M8zQEKhV5e7CJW5kghJ2fXB_kUbg7N-YcujHmcpxSxv2N7C0A0l2ys8yigoEci_dpQFzTisN2u623iPScrPhg-V71mv0NM2ZMhOd9JK8dKEWhoDtkPU55f0eH8EkIA54DrmnCz5fB-RgH9ML9GpsduLhUWvAxjvpI-THmKAtYbMFT361_8wELT45TcfzE4ptbv_MDuSl4Db0x3-jsDbjqActcECWc5SNS7T8XMMzou3sPSb6Ub79haPtuVA/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "J's Auto Clinic shop floor"
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJOfGM5lOVwoARYmqJiGFhX5Q/photos/ATCDNfXmoz7wfazXkHslKVojzyTMB8NMfLRLoGVzDDK02XVrMdeFJnDGUalBLCHUJy54ZlDnKofezNywnWLyQH-DGlluy_s_JFENsQjvRpoZV0Z8m4iLRL8wSMszK1BOM4YiKdXRacXoBebU0BVS_3qUxmXo8lbilBZswdmrENtyMPIcnTaFu17xrYWg0RAXu77IAqj41dmwUnx3R-Dz048oQAJKIqPaensDoH9e2pl3vvT8vvuVDExT1kDWT6S8l-7rUrMRQ4sasK6MVc2JOk0ReSWcWXpr_tc4kkVDZBFCWyYEPA/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Service bay"
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJOfGM5lOVwoARYmqJiGFhX5Q/photos/ATCDNfXx64oX6ADGie16MGQXVlroQsacCLXEJInyUYx25koCNW4QTWcQU3FplJjw1AB4RMyeSMawE2QCO1LUq6VKwrrTNE-esLsAIWf2dNfHteVTgjhsJaFpcx-QZnFfaGWvjXHb49PHKyj2FtEWkGuDQlGa0NYNvzJ4LXxfN4jWRge-RPXR5NeqeQXJPcBzAaZ4icBBfzFZFo0ipp0eOEkfD5eYbXduwNfVmgUuz5oy2zqivTWyOxMbpbspkoDgwhGACpprpEfvsI5jfFqfKhKR53qT0YvDPQLWEPkYW-82_fm17g/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Engine diagnostics"
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJOfGM5lOVwoARYmqJiGFhX5Q/photos/ATCDNfVwUaN7E-p-_dulzHbnV1-pXYq0eTJ4CCTeMdTmyAzBUxfzkD_tEv6QbPAvTnuW1bfucfFSDa8ioxSYaLIWj-HGVyTHP7OM2K5foqn3VxEsmYexpNhvXGRJIkluRDdew0WhwariRRHL56n7Bwq-jM0n0UZAKlECRB0p2XN9nzftJK-oqUWFoi6VO-pWDN3JOpv4emnQGbJ5lZCiyjy6l4bQkV_FoNIZ8a6KXRga1MPO6aeewzwqAxr6rjG8rZf5zuUSpM9B5h6XBS0of3nDJ0RtY7PIv1Ev4cZmOg9xuFGWig/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Customer vehicles"
+      }
+    ]
+  },
   "reviews": [
     {
-      "name": "Daniel R.",
+      "name": "Mike R.",
       "rating": 5,
-      "text": "Honest and fair pricing. They diagnosed my engine issue in 30 minutes and had me back on the road the same day. Best shop in Burbank."
+      "text": "Best mechanic in Burbank, hands down. They diagnosed the problem in minutes and the price was exactly what they quoted. No surprises.",
+      "timeAgo": "2 weeks ago"
     },
     {
-      "name": "Maria L.",
+      "name": "Sandra L.",
       "rating": 5,
-      "text": "I've been coming here for years. They always explain what needs to be done and never push unnecessary repairs. Highly recommend!"
+      "text": "I've been coming here for years and they've never let me down. Honest people who do honest work. Can't recommend enough.",
+      "timeAgo": "1 month ago"
     },
     {
-      "name": "Kevin T.",
+      "name": "Carlos T.",
       "rating": 5,
-      "text": "Great work on my transmission. Other shops quoted me double. J's Auto Clinic is the real deal — fair prices and quality work."
+      "text": "Brought my car in for a weird noise. They found the issue, fixed it same day, and it was way cheaper than the dealer quoted. Lifelong customer.",
+      "timeAgo": "3 weeks ago"
     }
   ],
   "contact": {
@@ -70,34 +103,38 @@
     "phone": "(818) 562-1414",
     "email": "info@jsautoclinic.com",
     "hours": {
-      "Monday - Friday": "8:00 AM - 5:00 PM",
-      "Saturday": "8:00 AM - 1:00 PM",
+      "Monday": "8:00 AM – 5:00 PM",
+      "Tuesday": "8:00 AM – 5:00 PM",
+      "Wednesday": "8:00 AM – 5:00 PM",
+      "Thursday": "8:00 AM – 5:00 PM",
+      "Friday": "8:00 AM – 5:00 PM",
+      "Saturday": "8:00 AM – 1:00 PM",
       "Sunday": "Closed"
     },
     "mapEmbedQuery": "J's+Auto+Clinic+249+S+Glenoaks+Blvd+Burbank+CA"
   },
   "social": {
-    "instagram": "https://www.instagram.com/explore/locations/600464757/js-auto-clinic/",
-    "facebook": "https://www.facebook.com/JSAUTOCLINIC/",
-    "yelp": "https://www.yelp.com/biz/js-auto-clinic-burbank-2",
+    "instagram": "",
+    "facebook": "",
+    "yelp": "",
     "tiktok": "",
     "bookingUrl": ""
   },
   "seo": {
     "title": "J's Auto Clinic | Trusted Auto Repair in Burbank CA",
-    "description": "J's Auto Clinic in Burbank CA offers expert auto repair, engine diagnostics, brake service, oil changes, and more. 4.9 stars, 134+ reviews. Call (818) 562-1414.",
+    "description": "J's Auto Clinic in Burbank CA. 4.9-star rated auto repair — engine diagnostics, brakes, oil changes, transmission, A/C repair. Call (818) 562-1414.",
     "keywords": [
-      "auto repair Burbank",
-      "mechanic Burbank CA",
-      "car repair near me",
+      "auto repair Burbank CA",
+      "mechanic Burbank",
       "brake service Burbank",
       "oil change Burbank",
-      "engine diagnostics"
+      "car repair near me",
+      "engine diagnostics Burbank"
     ]
   },
   "theme": {
-    "primaryColor": "#0f172a",
-    "accentColor": "#2563eb",
-    "fontFamily": "Poppins"
+    "primaryColor": "#0a0a0a",
+    "accentColor": "#dc2626",
+    "fontFamily": "Inter"
   }
 }
