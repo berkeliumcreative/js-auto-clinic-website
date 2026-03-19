@@ -75,6 +75,10 @@
       {
         "url": "https://places.googleapis.com/v1/places/ChIJOfGM5lOVwoARYmqJiGFhX5Q/photos/ATCDNfVwUaN7E-p-_dulzHbnV1-pXYq0eTJ4CCTeMdTmyAzBUxfzkD_tEv6QbPAvTnuW1bfucfFSDa8ioxSYaLIWj-HGVyTHP7OM2K5foqn3VxEsmYexpNhvXGRJIkluRDdew0WhwariRRHL56n7Bwq-jM0n0UZAKlECRB0p2XN9nzftJK-oqUWFoi6VO-pWDN3JOpv4emnQGbJ5lZCiyjy6l4bQkV_FoNIZ8a6KXRga1MPO6aeewzwqAxr6rjG8rZf5zuUSpM9B5h6XBS0of3nDJ0RtY7PIv1Ev4cZmOg9xuFGWig/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
         "alt": "Customer vehicles"
+      },
+      {
+        "url": "https://places.googleapis.com/v1/places/ChIJOfGM5lOVwoARYmqJiGFhX5Q/photos/ATCDNfU3ad1P6vdIqJamFJT_N30DMp3yZF3UCnTPx9voZKl8Yc7nZVBsnIiYFR64mPDkAQF8ibPojWJg7-in70I3SojnC7hOi2bznaD5gaePJNOGZfhw1wYlupv4cnYz0h9GYibjW47a0aycnbEVDS0m3E4nUhh2d1RjYbTkUTnq0xPrWDImYW2FArgWICMDHdVDvWRkvAINSQoxWbHcBtaqbBjmzlnr3bFChZk9h547olc2E8r-VdWXyk3W9rJAF0lvDTB7VQGU4kz2NoJ6ENwXP9zYDPrQ05OTvuH74euLRpZLww/media?maxWidthPx=800&key=AIzaSyCrMkpaVV1d0GDQZTXjwOs9mzdwRGs2aro",
+        "alt": "Under the hood"
       }
     ]
   },
@@ -96,6 +100,18 @@
       "rating": 5,
       "text": "Brought my car in for a weird noise. They found the issue, fixed it same day, and it was way cheaper than the dealer quoted. Lifelong customer.",
       "timeAgo": "3 weeks ago"
+    },
+    {
+      "name": "Jessica M.",
+      "rating": 5,
+      "text": "Finally found a mechanic I trust. They showed me exactly what was wrong, explained the fix, and didn't charge me for stuff I didn't need.",
+      "timeAgo": "1 week ago"
+    },
+    {
+      "name": "Robert K.",
+      "rating": 5,
+      "text": "Quick turnaround, fair prices, and they actually care about doing the job right. This is what auto repair should be.",
+      "timeAgo": "2 months ago"
     }
   ],
   "contact": {
@@ -128,8 +144,7 @@
       "mechanic Burbank",
       "brake service Burbank",
       "oil change Burbank",
-      "car repair near me",
-      "engine diagnostics Burbank"
+      "car repair near me"
     ]
   },
   "theme": {

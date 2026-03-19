@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { Poppins, Open_Sans } from "next/font/google";
+import { Poppins, Inter } from "next/font/google";
 import content from "../data/content.json";
 import "./globals.css";
+import { cn } from "@/lib/utils";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+});
 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700", "800"],
   variable: "--font-heading",
-  display: "swap",
-});
-
-const openSans = Open_Sans({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-body",
   display: "swap",
 });
 
@@ -26,6 +26,7 @@ export const metadata: Metadata = {
     description: content.seo.description,
     type: "website",
   },
+  metadataBase: new URL("https://example.com"),
 };
 
 export default function RootLayout({
@@ -34,22 +35,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${poppins.variable} ${openSans.variable}`}>
+    <html lang="en" className={cn(inter.variable, poppins.variable, "dark")}>
       <head>
+        <meta name="theme-color" content="#030712" />
         <style
           dangerouslySetInnerHTML={{
             __html: `
               :root {
-                --primary: ${content.theme.primaryColor};
-                --accent: ${content.theme.accentColor};
+                --theme-accent: ${content.theme.accentColor};
               }
-              body { font-family: var(--font-body), system-ui, sans-serif; }
+              body { font-family: var(--font-sans), system-ui, sans-serif; }
               h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading), system-ui, sans-serif; }
             `,
           }}
         />
       </head>
-      <body>{children}</body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
