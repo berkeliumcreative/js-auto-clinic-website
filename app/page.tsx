@@ -6,12 +6,12 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Spotlight } from "@/components/ui/spotlight";
-import Particles from "@/components/ui/particles";
-import BlurFade from "@/components/ui/blur-fade";
+import { Particles } from "@/components/ui/particles";
+import { BlurFade } from "@/components/ui/blur-fade";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-import NumberTicker from "@/components/ui/number-ticker";
+import { NumberTicker } from "@/components/ui/number-ticker";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
-import ShimmerButton from "@/components/ui/shimmer-button";
+import { ShimmerButton } from "@/components/ui/shimmer-button";
 import { LampContainer } from "@/components/ui/lamp";
 import {
   Phone, MapPin, Mail, Clock, Star, Wrench, Scissors, Car, Sparkles,
@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 import { useState, useEffect, useRef, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 /* ─── Types ─── */
 type ContentType = typeof content & {
