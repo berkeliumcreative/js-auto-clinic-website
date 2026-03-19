@@ -1,0 +1,81 @@
+{
+  "businessName": "Sample Business",
+  "tagline": "Professional services you can trust",
+  "hero": {
+    "heading": "Welcome to Sample Business",
+    "subheading": "Providing quality service to our community for over a decade",
+    "ctaText": "Get in Touch",
+    "ctaLink": "#contact",
+    "secondaryCtaText": "Our Services",
+    "secondaryCtaLink": "#services"
+  },
+  "about": {
+    "heading": "About Us",
+    "paragraphs": [
+      "We are a trusted local business committed to delivering exceptional service and building lasting relationships with our customers.",
+      "Our experienced team brings expertise and dedication to every project, ensuring your complete satisfaction."
+    ]
+  },
+  "services": [
+    {
+      "title": "Consultations",
+      "description": "Free initial consultations to understand your needs and provide the best solution.",
+      "icon": "phone"
+    },
+    {
+      "title": "Quality Service",
+      "description": "Professional, reliable service delivered on time and within budget.",
+      "icon": "star"
+    },
+    {
+      "title": "Customer Support",
+      "description": "Ongoing support and follow-up to ensure your complete satisfaction.",
+      "icon": "wrench"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "John D.",
+      "rating": 5,
+      "text": "Excellent service! Highly recommend to anyone looking for quality work."
+    },
+    {
+      "name": "Sarah M.",
+      "rating": 5,
+      "text": "Professional, on time, and great communication throughout the process."
+    },
+    {
+      "name": "Mike R.",
+      "rating": 5,
+      "text": "Best in the area. Fair prices and outstanding results every time."
+    }
+  ],
+  "contact": {
+    "address": "123 Business Ave, Anytown, USA",
+    "phone": "(555) 987-6543",
+    "email": "info@samplebusiness.com",
+    "hours": {
+      "Monday - Friday": "8:00 AM - 6:00 PM",
+      "Saturday": "9:00 AM - 2:00 PM",
+      "Sunday": "Closed"
+    },
+    "mapEmbedQuery": "123+Business+Ave+Anytown+USA"
+  },
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "yelp": "",
+    "tiktok": "",
+    "bookingUrl": ""
+  },
+  "seo": {
+    "title": "Sample Business | Professional Services in Anytown",
+    "description": "Sample Business provides professional, reliable services in Anytown. Contact us for a free consultation.",
+    "keywords": ["business", "services", "professional", "anytown"]
+  },
+  "theme": {
+    "primaryColor": "#0f172a",
+    "accentColor": "#3b82f6",
+    "fontFamily": "Poppins"
+  }
+}
