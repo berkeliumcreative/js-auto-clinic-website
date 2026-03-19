@@ -1,81 +1,103 @@
 {
-  "businessName": "Sample Business",
-  "tagline": "Professional services you can trust",
+  "businessName": "J's Auto Clinic",
+  "tagline": "Burbank's Most Trusted Auto Repair Since Day One",
   "hero": {
-    "heading": "Welcome to Sample Business",
-    "subheading": "Providing quality service to our community for over a decade",
-    "ctaText": "Get in Touch",
-    "ctaLink": "#contact",
+    "heading": "Expert Auto Repair You Can Count On",
+    "subheading": "Family-owned auto shop in Burbank providing honest, reliable car repair and maintenance. 4.9 stars from 134+ happy customers.",
+    "ctaText": "Call For a Quote",
+    "ctaLink": "tel:(818) 562-1414",
     "secondaryCtaText": "Our Services",
     "secondaryCtaLink": "#services"
   },
   "about": {
-    "heading": "About Us",
+    "heading": "About J's Auto Clinic",
     "paragraphs": [
-      "We are a trusted local business committed to delivering exceptional service and building lasting relationships with our customers.",
-      "Our experienced team brings expertise and dedication to every project, ensuring your complete satisfaction."
+      "J's Auto Clinic is a full-service auto repair shop located in the heart of Burbank, California. We specialize in everything from routine oil changes and brake services to complex engine diagnostics and transmission repairs.",
+      "Our ASE-certified technicians treat every vehicle like their own. We believe in transparent pricing, honest assessments, and getting you back on the road safely. Whether you drive a domestic, European, or Asian vehicle, we have the expertise to handle it."
     ]
   },
   "services": [
     {
-      "title": "Consultations",
-      "description": "Free initial consultations to understand your needs and provide the best solution.",
-      "icon": "phone"
+      "title": "Engine Diagnostics",
+      "description": "State-of-the-art computer diagnostics to pinpoint issues fast and accurately. Check engine light? We'll find the cause.",
+      "icon": "car"
     },
     {
-      "title": "Quality Service",
-      "description": "Professional, reliable service delivered on time and within budget.",
-      "icon": "star"
+      "title": "Brake Service",
+      "description": "Complete brake inspection, pad replacement, rotor resurfacing, and brake fluid flush to keep you stopping safely.",
+      "icon": "shield"
     },
     {
-      "title": "Customer Support",
-      "description": "Ongoing support and follow-up to ensure your complete satisfaction.",
+      "title": "Oil Change & Tune-Up",
+      "description": "Routine maintenance including oil changes, filter replacements, spark plugs, and fluid top-offs to extend your vehicle's life.",
       "icon": "wrench"
+    },
+    {
+      "title": "Transmission Repair",
+      "description": "Full transmission diagnostics, fluid service, and repair for both automatic and manual transmissions.",
+      "icon": "wrench"
+    },
+    {
+      "title": "A/C & Heating",
+      "description": "Climate control system diagnosis and repair. Stay comfortable year-round with a properly functioning A/C and heater.",
+      "icon": "sparkles"
+    },
+    {
+      "title": "Tire & Alignment",
+      "description": "Tire rotation, balancing, wheel alignment, and new tire installation to keep your ride smooth and safe.",
+      "icon": "car"
     }
   ],
   "reviews": [
     {
-      "name": "John D.",
+      "name": "Daniel R.",
       "rating": 5,
-      "text": "Excellent service! Highly recommend to anyone looking for quality work."
+      "text": "Honest and fair pricing. They diagnosed my engine issue in 30 minutes and had me back on the road the same day. Best shop in Burbank."
     },
     {
-      "name": "Sarah M.",
+      "name": "Maria L.",
       "rating": 5,
-      "text": "Professional, on time, and great communication throughout the process."
+      "text": "I've been coming here for years. They always explain what needs to be done and never push unnecessary repairs. Highly recommend!"
     },
     {
-      "name": "Mike R.",
+      "name": "Kevin T.",
       "rating": 5,
-      "text": "Best in the area. Fair prices and outstanding results every time."
+      "text": "Great work on my transmission. Other shops quoted me double. J's Auto Clinic is the real deal — fair prices and quality work."
     }
   ],
   "contact": {
-    "address": "123 Business Ave, Anytown, USA",
-    "phone": "(555) 987-6543",
-    "email": "info@samplebusiness.com",
+    "address": "249 S Glenoaks Blvd, Burbank, CA 91502",
+    "phone": "(818) 562-1414",
+    "email": "info@jsautoclinic.com",
     "hours": {
-      "Monday - Friday": "8:00 AM - 6:00 PM",
-      "Saturday": "9:00 AM - 2:00 PM",
+      "Monday - Friday": "8:00 AM - 5:00 PM",
+      "Saturday": "8:00 AM - 1:00 PM",
       "Sunday": "Closed"
     },
-    "mapEmbedQuery": "123+Business+Ave+Anytown+USA"
+    "mapEmbedQuery": "J's+Auto+Clinic+249+S+Glenoaks+Blvd+Burbank+CA"
   },
   "social": {
-    "instagram": "",
-    "facebook": "",
-    "yelp": "",
+    "instagram": "https://www.instagram.com/explore/locations/600464757/js-auto-clinic/",
+    "facebook": "https://www.facebook.com/JSAUTOCLINIC/",
+    "yelp": "https://www.yelp.com/biz/js-auto-clinic-burbank-2",
     "tiktok": "",
     "bookingUrl": ""
   },
   "seo": {
-    "title": "Sample Business | Professional Services in Anytown",
-    "description": "Sample Business provides professional, reliable services in Anytown. Contact us for a free consultation.",
-    "keywords": ["business", "services", "professional", "anytown"]
+    "title": "J's Auto Clinic | Trusted Auto Repair in Burbank CA",
+    "description": "J's Auto Clinic in Burbank CA offers expert auto repair, engine diagnostics, brake service, oil changes, and more. 4.9 stars, 134+ reviews. Call (818) 562-1414.",
+    "keywords": [
+      "auto repair Burbank",
+      "mechanic Burbank CA",
+      "car repair near me",
+      "brake service Burbank",
+      "oil change Burbank",
+      "engine diagnostics"
+    ]
   },
   "theme": {
     "primaryColor": "#0f172a",
-    "accentColor": "#3b82f6",
+    "accentColor": "#2563eb",
     "fontFamily": "Poppins"
   }
 }
